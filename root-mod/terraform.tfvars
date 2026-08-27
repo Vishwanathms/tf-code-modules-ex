@@ -9,7 +9,7 @@ admin_username = "azureuser"
 admin_password = "Password123!"
 tags = {
   environment = "dev"
-  project     = "terraform"
+  project     = "terraforms"
 }
 resource_group_name = "rg03"
 location = "East US"
