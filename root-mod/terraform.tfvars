@@ -1,6 +1,6 @@
-vnet_name = "vnet02"
+vnet_name = "vnet03"
 vnet_address_space = ["10.0.0.0/16"]
-vm_name_prefix = "vm02"
+vm_name_prefix = "vm03"
 vm_size = "Standard_DS1_v2"
 vm_image_publisher = "Canonical"
 vm_image_offer = "UbuntuServer"
@@ -11,3 +11,5 @@ tags = {
   environment = "dev"
   project     = "terraform"
 }
+resource_group_name = "rg03"
+location = "East US"

@@ -1,3 +1,4 @@
+
 ## Enter Vnet relation information here
 
 variable "vnet_name" {
